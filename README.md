@@ -1,74 +1,140 @@
 # BI-360 Power BI Dashboard
+# Business Insights 360 Project Report for AtliQ Hardwares
+# Project Overiew
 
-PowerBI Dashboard AtliQ Hardware
-Business Insights 360° is a fully interactive Power BI dashboard that consolidates key business data from Finance, Sales, Marketing, Supply Chain, and Executive Management into a single platform. It delivers actionable insights through KPI tracking, profitability analysis, forecast accuracy metrics, and market share trends, helping stakeholders make informed, data-driven decisions.
+AtliQ Hardware has seen rapid growth in recent years. To stay ahed of competitors and make data-driven decisions, the company has implemented data analytics using Power BI for the first time. This project aims to provide insights into various aspects of the business, including Finance, Sales, Marketing, and Supply Chain, addressing stakeholders queries effectively.
 
-🔷Features
-1. Overview / Info Page
-➡️User guide and navigation panel for smooth access to all views
+# Live Power BI Report Link
+# Tech Stacks
+# 🔹SQL
+# 🔹Power BI Desktop
+# 🔹Excel
+# 🔹DAX Language
+# 🔹DAX Studio (for report optimization)
+# 🔹Project Charter File
+# 🔹Power BI Service
 
-2. Finance View
- 
-➡️P&L statements by customer, product, or region
+# Power BI Techniques Learned
+🔹Key questions to ask before starting a project.
 
-➡️Net Sales, Gross Margin %, and Net Profit % trends
+🔹Creating calculated columns and measures using DAX.
 
-➡️Top/bottom products and customers
+🔹Data modeling best practices.
 
-3. Sales View
- 
-➡️Customer & product performance with profitability/growth matrix
+🔹Using bookmarks to switch between visuals.
 
-➡️Unit economics breakdown for better decision-making
+🔹Page navigation with buttons for better user experience.
 
-4. Marketing View
- 
-➡️Product & regional performance insights
+🔹Using the DIVIDE function to prevent division by zero errors.
 
-➡️Toggle button to switch between Gross Margin and Net Profit KPIs
+🔹Creating a date table using M language for time intelligence.
 
-➡️Toggle b/w GM% and NP%
+🔹Dynamic titles based on applied filters.
 
-5. Supply Chain View
+🔹Implementing KPI indicators.
 
-➡️Forecast accuracy tracking
+🔹Conditional formatting using icons or background colors in visuals.
 
-➡️Net error & ABS error analysis
+🔹Data validation techniques for accurate reporting.
 
-➡️Risk profiling by customer & product
+🔹Publishing reports to Power BI Services.
 
-6. Executive View
- 
-➡️Consolidated KPI summary for leadership
+🔹Setting up a personal gateway for auto-refresh.
 
-➡️Revenue breakdown by division & channel
+🔹Power BI App creation and collaboration via workspaces and access permissions.
 
-➡️Sub-zone performance and market share trend analysis
+# Business Terminology
+🔹 Gross Price
 
-🔷Tech Stack
+🔹 Pre-Invoice Deductions
 
-➡️Visualization Tool: Microsoft Power BI
+🔹 Post-Invoice Deductions
 
-➡️Data Transformation: Power Query, DAX, Star and Snowflake schema
+🔹 Net Invoice Sale
 
-➡️Data Source: Excel, SQL Server
+🔹 Gross Margin 
 
-➡️Metrics Tracked: Net Sales, Gross Margin %, Net Profit %, Forecast Accuracy %, Market Share %
+🔹 Net Sale
 
-🔷Business Impact
+🔹 Net Profit
 
-➡️Provided a unified platform for strategic decision-making
+🔹 COGS - Cost of Goods Sold
 
-➡️Enhanced visibility into performance trends across all departments
+🔹 YTD - Year to Date
 
-➡️Achieved 360° operational visibility across Finance, Sales, Marketing, and Supply Chain.
+🔹 YTG - Year to GO
 
- ✅Increased Net Sales by 182.37% compared to the benchmark.
+🔹 Direct Retailers
 
- ✅Improved forecasting analysis, achieving an overall Forecast Accuracy of 72.99%.
+🔹 Distributors
 
- ✅Maintained an average Gross Margin % of 48.90% across key products.
+🔹 Consumers
 
- ✅Identified top-performing regions and customers for strategic growth.
+# Company Background
+AtliQ Hardware has grown rapidly in recent years and expanded its operations globally. The company sells computers and accessories via three channels:
 
- ✅Reduced operational risks through targeted supply chain analysis.
+# 🔹 Retailers
+# 🔹 Direct
+# 🔹 Distributors
+
+Recently, AtliQ faced an unexpected loss due to opening a store in America based on intution rather than solid analytics. Competitors already had dedicated analytics teams to make data-driven decisions. AtliQ Hardware has now committed to building its analytics team to gain valuable insights and make informed business decisions in the future.
+
+# Project Kickoff Session
+During the project kickoff, it is essential to clarify all aspects of the project, including:
+
+  🔹The objective of building the Power BI dashboard.
+	
+  🔹Success metrics for the project.
+
+  🔹 Project timeline and deadlines.
+
+  🔹 Stakeholder expections for previews before the final release.
+
+  🔹 Fears or concerns stakeholders have about the project.
+
+  🔹 The purpose of the dashboard and who will be using it.
+
+  🔹 Stakeholder expections and possible risks.
+
+  🔹 Required resources and data for dashboard development.
+
+  🔹 Stakeholder input on dashboard design and views.
+
+# Dataset Understanding
+Understanding the dataset is critical for accurate analysis. The dataset contains:
+
+🔹Dimension Table: Static data such as customer and product details.
+
+🔹Fact Table: Transactional data for sales and forecasting.
+
+# Key Tables
+
+🔹dim_customer: Contains customer information accross 27 markets and two platforms (Brick & Mortar, E-commerce).
+
+🔹dim_market: Contains market details across 27 markets, seven sub-zones, and four regions.
+
+🔹 dim_product: Product data across divisions (Peripherals, PC, Networking, etc.).
+
+🔹 fact_forecast_monthly: Forecasting customer demand to improve satisfaction and reduce warehouse costs.
+
+🔹  fact_sales_monthly: Sales data, structured similarly to the forecast table, but with actual sales values.
+
+🔹  freight_cost: Travel and other costs per market.
+
+🔹  gross_price: Gross prices by product code.
+
+🔹  manufacturing_cost: Manufacturing costs by product and year.
+
+🔹  pre_invoice_deductions: Pre-invoice deductions percentage for customers.
+
+🔹  post_invoice_deductions: Post-invoice deductions and additional deductions.
+
+# Importing Data into Power BI
+ The dataset is sourced from a MySQL database. The data is imported into Power BI by providing the   database access credentials.
+
+# Data Modeling
+Data modeling forms the foundation of the Power BI report. Poor data modeling can negatively impact report performance. In this project, we followed the Snowflake Data Modeling Method to ensure efficiency and scalability
+
+
+
+
