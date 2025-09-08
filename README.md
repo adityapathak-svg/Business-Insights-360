@@ -1,4 +1,4 @@
-# Business-Insights-360
+# BI-360 Power BI Dashboard
 
 PowerBI Dashboard AtliQ Hardware
 Business Insights 360° is a fully interactive Power BI dashboard that consolidates key business data from Finance, Sales, Marketing, Supply Chain, and Executive Management into a single platform. It delivers actionable insights through KPI tracking, profitability analysis, forecast accuracy metrics, and market share trends, helping stakeholders make informed, data-driven decisions.
