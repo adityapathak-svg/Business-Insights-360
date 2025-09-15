@@ -11,7 +11,7 @@ This project provides insights into **Finance, Sales, Marketing, and Supply Chai
 ---
 
 ## 🔗 Live Power BI Report Link  
-*(Add your link here)*  
+*([Add your link here](https://app.powerbi.com/links/lmah6LaeLw?ctid=9768ed88-7bf2-4757-a0f4-62e80836c598&pbi_source=linkShare))*  
 
 ---
 
