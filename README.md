@@ -1,140 +1,117 @@
-# BI-360 Power BI Dashboard
-# Business Insights 360 Project Report for AtliQ Hardwares
-# Project Overiew
+# 📊 BI-360 Power BI Dashboard  
+### Business Insights 360 Project Report for **AtliQ Hardwares**  
 
-AtliQ Hardware has seen rapid growth in recent years. To stay ahed of competitors and make data-driven decisions, the company has implemented data analytics using Power BI for the first time. This project aims to provide insights into various aspects of the business, including Finance, Sales, Marketing, and Supply Chain, addressing stakeholders queries effectively.
+---
 
-# Live Power BI Report Link
-# Tech Stacks
-# 🔹SQL
-# 🔹Power BI Desktop
-# 🔹Excel
-# 🔹DAX Language
-# 🔹DAX Studio (for report optimization)
-# 🔹Project Charter File
-# 🔹Power BI Service
+## 🚀 Project Overview  
+AtliQ Hardware has seen rapid growth in recent years. To stay ahead of competitors and make data-driven decisions, the company has implemented **Power BI** for the first time.  
 
-# Power BI Techniques Learned
-🔹Key questions to ask before starting a project.
+This project provides insights into **Finance, Sales, Marketing, and Supply Chain**, addressing stakeholders’ queries effectively.  
 
-🔹Creating calculated columns and measures using DAX.
+---
 
-🔹Data modeling best practices.
+## 🔗 Live Power BI Report Link  
+*(Add your link here)*  
 
-🔹Using bookmarks to switch between visuals.
+---
 
-🔹Page navigation with buttons for better user experience.
+## 🛠️ Tech Stacks  
+- SQL  
+- Power BI Desktop  
+- Excel  
+- DAX Language  
+- DAX Studio (for report optimization)  
+- Project Charter File  
+- Power BI Service  
 
-🔹Using the DIVIDE function to prevent division by zero errors.
+---
 
-🔹Creating a date table using M language for time intelligence.
+## 📚 Power BI Techniques Learned  
+- Key questions to ask before starting a project  
+- Creating calculated columns and measures using DAX  
+- Data modeling best practices  
+- Using bookmarks to switch between visuals  
+- Page navigation with buttons for better UX  
+- Using the **DIVIDE** function to prevent division by zero errors  
+- Creating a date table using **M language** for time intelligence  
+- Dynamic titles based on applied filters  
+- Implementing KPI indicators  
+- Conditional formatting (icons/background colors)  
+- Data validation techniques for accurate reporting  
+- Publishing reports to Power BI Services  
+- Setting up a personal gateway for auto-refresh  
+- Power BI App creation & collaboration via workspaces and permissions  
 
-🔹Dynamic titles based on applied filters.
+---
 
-🔹Implementing KPI indicators.
+## 🏷️ Business Terminology  
+- Gross Price  
+- Pre-Invoice Deductions  
+- Post-Invoice Deductions  
+- Net Invoice Sale  
+- Gross Margin  
+- Net Sale  
+- Net Profit  
+- COGS – Cost of Goods Sold  
+- YTD – Year to Date  
+- YTG – Year to Go  
+- Direct Retailers  
+- Distributors  
+- Consumers  
 
-🔹Conditional formatting using icons or background colors in visuals.
+---
 
-🔹Data validation techniques for accurate reporting.
+## 🏢 Company Background  
+AtliQ Hardware has grown rapidly and expanded globally. It sells computers and accessories via:  
+- Retailers  
+- Direct  
+- Distributors  
 
-🔹Publishing reports to Power BI Services.
+Recently, AtliQ faced a loss due to opening a store in America based on intuition rather than analytics, while competitors had dedicated data teams. To avoid repeating this, AtliQ has committed to building an analytics team to make **data-driven decisions**.  
 
-🔹Setting up a personal gateway for auto-refresh.
+---
 
-🔹Power BI App creation and collaboration via workspaces and access permissions.
+## 📝 Project Kickoff Session  
+Key clarifications during the kickoff:  
+- Objective of building the Power BI dashboard  
+- Success metrics for the project  
+- Timeline & deadlines  
+- Stakeholder expectations (previews before release)  
+- Risks, fears, or concerns from stakeholders  
+- Dashboard purpose and target users  
+- Required resources and data  
+- Input on design and views  
 
-# Business Terminology
-🔹 Gross Price
+---
 
-🔹 Pre-Invoice Deductions
+## 📂 Dataset Understanding  
+The dataset includes:  
+- **Dimension Table** → Static data (customers, products)  
+- **Fact Table** → Transactional data (sales, forecasting)  
 
-🔹 Post-Invoice Deductions
+### 🔑 Key Tables  
+- **dim_customer** → Customer info across 27 markets & 2 platforms (Brick & Mortar, E-commerce)  
+- **dim_market** → Market details (27 markets, 7 sub-zones, 4 regions)  
+- **dim_product** → Product data across divisions (Peripherals, PC, Networking, etc.)  
+- **fact_forecast_monthly** → Forecasting customer demand (improve satisfaction, reduce warehouse costs)  
+- **fact_sales_monthly** → Actual sales data, structured like forecast table  
+- **freight_cost** → Travel & market-wise costs  
+- **gross_price** → Product-wise gross prices  
+- **manufacturing_cost** → Yearly product manufacturing costs  
+- **pre_invoice_deductions** → Pre-invoice deduction % for customers  
+- **post_invoice_deductions** → Post-invoice & additional deductions  
 
-🔹 Net Invoice Sale
+---
 
-🔹 Gross Margin 
+## 🗄️ Importing Data into Power BI  
+- Data is sourced from a **MySQL database**  
+- Imported into Power BI via database access credentials  
 
-🔹 Net Sale
+---
 
-🔹 Net Profit
+## 🧩 Data Modeling  
+Data modeling is the **foundation of the Power BI report**. Poor modeling = poor performance.  
+This project uses the **Snowflake Data Modeling Method** for efficiency & scalability.  
 
-🔹 COGS - Cost of Goods Sold
-
-🔹 YTD - Year to Date
-
-🔹 YTG - Year to GO
-
-🔹 Direct Retailers
-
-🔹 Distributors
-
-🔹 Consumers
-
-# Company Background
-AtliQ Hardware has grown rapidly in recent years and expanded its operations globally. The company sells computers and accessories via three channels:
-
-# 🔹 Retailers
-# 🔹 Direct
-# 🔹 Distributors
-
-Recently, AtliQ faced an unexpected loss due to opening a store in America based on intution rather than solid analytics. Competitors already had dedicated analytics teams to make data-driven decisions. AtliQ Hardware has now committed to building its analytics team to gain valuable insights and make informed business decisions in the future.
-
-# Project Kickoff Session
-During the project kickoff, it is essential to clarify all aspects of the project, including:
-
-  🔹The objective of building the Power BI dashboard.
-	
-  🔹Success metrics for the project.
-
-  🔹 Project timeline and deadlines.
-
-  🔹 Stakeholder expections for previews before the final release.
-
-  🔹 Fears or concerns stakeholders have about the project.
-
-  🔹 The purpose of the dashboard and who will be using it.
-
-  🔹 Stakeholder expections and possible risks.
-
-  🔹 Required resources and data for dashboard development.
-
-  🔹 Stakeholder input on dashboard design and views.
-
-# Dataset Understanding
-Understanding the dataset is critical for accurate analysis. The dataset contains:
-
-🔹Dimension Table: Static data such as customer and product details.
-
-🔹Fact Table: Transactional data for sales and forecasting.
-
-# Key Tables
-
-🔹dim_customer: Contains customer information accross 27 markets and two platforms (Brick & Mortar, E-commerce).
-
-🔹dim_market: Contains market details across 27 markets, seven sub-zones, and four regions.
-
-🔹 dim_product: Product data across divisions (Peripherals, PC, Networking, etc.).
-
-🔹 fact_forecast_monthly: Forecasting customer demand to improve satisfaction and reduce warehouse costs.
-
-🔹  fact_sales_monthly: Sales data, structured similarly to the forecast table, but with actual sales values.
-
-🔹  freight_cost: Travel and other costs per market.
-
-🔹  gross_price: Gross prices by product code.
-
-🔹  manufacturing_cost: Manufacturing costs by product and year.
-
-🔹  pre_invoice_deductions: Pre-invoice deductions percentage for customers.
-
-🔹  post_invoice_deductions: Post-invoice deductions and additional deductions.
-
-# Importing Data into Power BI
- The dataset is sourced from a MySQL database. The data is imported into Power BI by providing the   database access credentials.
-
-# Data Modeling
-Data modeling forms the foundation of the Power BI report. Poor data modeling can negatively impact report performance. In this project, we followed the Snowflake Data Modeling Method to ensure efficiency and scalability
-
-
-
-
+---
+✨ *End of Report*  
